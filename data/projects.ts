@@ -4,7 +4,7 @@ export const projects = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         tags: ['Next.js', 'TypeScript', 'Styled Components', 'RapidAPI'],
         github: '',
-        link: 'https://google.com',
+        link: 'statsoftheday.com',
         id: 0,
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'RapidAPI'],
         github: '',
-        link: 'https://google.com',
+        link: 'devvie.io',
         id: 1,
     },
 ]

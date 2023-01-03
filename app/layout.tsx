@@ -14,7 +14,7 @@ export default function RootLayout({
       */}
       <head />
       
-      <body className='bg-zinc-900 p-4'>
+      <body className='bg-zinc-900 p-4 md:w-4/5 lg:w-3/5 mx-auto'>
       <Navigation />
       {children}</body>
     </html>

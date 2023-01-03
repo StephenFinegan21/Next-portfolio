@@ -1,7 +1,7 @@
 import Socials from "../components/Socials"
 export default function Hero() {
     return (
-        <div className="w-full mx-auto h-96 flex flex-col justify-center">
+        <div className="w-full my-12 flex flex-col justify-center md:w-3/5 md:justify-start">
         <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">Frontend Developer</h1>
         <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">@ Distilled</h1>
 
