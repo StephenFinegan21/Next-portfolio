@@ -1,6 +1,9 @@
+'use client'
 import './globals.css'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import { motion } from 'framer-motion'
+
 
 export default function RootLayout({
   children,
@@ -15,11 +18,15 @@ export default function RootLayout({
       */}
       <head />
       
-      <body className='bg-zinc-900 p-4 md:w-4/5 lg:w-3/5 mx-auto'>
+      <motion.body 
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y : 0 }}
+      transition={{ delay: 0.2 }}
+      className='bg-zinc-900 p-4 md:w-4/5 lg:w-3/5 mx-auto'>
       <Navigation />
       {children}
       <Footer />
-      </body>
+      </motion.body>
     </html>
   )
 }

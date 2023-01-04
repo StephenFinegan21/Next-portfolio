@@ -10,9 +10,6 @@ export default function Hero() {
 
     return (
         <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y : 0 }}
-        transition={{ duration: 0.2 }}
          className="w-full my-12 flex flex-col justify-center md:w-3/5 md:justify-start">
         <h1 className="text-2xl font-bold tracking-tight text-white sm:text-5xl">Frontend Developer</h1>
         <h1 className="text-2xl font-bold tracking-tight text-white sm:text-5xl">@ Distilled</h1>

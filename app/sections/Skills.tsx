@@ -11,7 +11,7 @@ export default function Skills() {
                 <motion.div
                 initial={{ opacity: 0 , x: -40 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5 }}
+                transition={{ delay: 0.2 }}
                 viewport={{ once: true }}
                  className="flex w-full gap-4 items-center my-8">
                      <img className="w-8 col-span-1" src={skill.image} />
