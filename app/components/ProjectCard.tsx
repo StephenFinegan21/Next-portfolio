@@ -12,7 +12,7 @@ type Project = {
 
 export default function ProjectCard(props: Project) {
   const { title, description, link, displayLink } = props.project;
-  console.log("test", props);
+
 
   return (
     <>
