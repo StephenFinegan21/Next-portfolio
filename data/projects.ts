@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'Stats of the day',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        description: 'Get statistics and predictions for upcoming Premier League matches.',
         tags: ['Next.js', 'TypeScript', 'Styled Components', 'RapidAPI'],
         github: '',
         link: 'https://www.statsoftheday.com/',
@@ -10,7 +10,7 @@ export const projects = [
     },
     {
         title: 'Devvie',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        description: 'A collection of the latest graduate level developer jobs in Ireland.',
         tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'RapidAPI'],
         github: '',
         link: 'https://devvie.io/',

@@ -15,7 +15,7 @@ export default function Hero() {
         <h1 className="text-2xl font-bold tracking-tight text-white sm:text-5xl">@ Distilled</h1>
 
         <p className="mt-6 text-base text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
+            I’m a frontend developer based in Dublin. Currently working on the Daft.ie platform at Distilled.
             </p>
             <Socials />
         </motion.div>
