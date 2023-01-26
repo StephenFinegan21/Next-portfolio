@@ -17,4 +17,13 @@ export const projects = [
         displayLink: 'devvie.io',
         id: 1,
     },
+    {
+        title: 'Meditations',
+        description: 'Building an online version of Meditations using the Astro Framework.',
+        tags: ['Astro', 'TypeScript', 'Tailwind CSS'],
+        github: '',
+        link: 'https://meditations-a83bmq20m-stephenfinegan21.vercel.app/',
+        displayLink: 'Meditations',
+        id: 1,
+    },
 ]
