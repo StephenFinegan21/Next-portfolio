@@ -22,7 +22,7 @@ export const projects = [
         description: 'Building an online version of Meditations using the Astro Framework.',
         tags: ['Astro', 'TypeScript', 'Tailwind CSS'],
         github: '',
-        link: 'https://meditations-a83bmq20m-stephenfinegan21.vercel.app/',
+        link: 'https://meditations-alpha.vercel.app/',
         displayLink: 'Meditations',
         id: 1,
     },
