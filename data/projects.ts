@@ -8,7 +8,7 @@ export const projects = [
         displayLink: 'statsoftheday.com',
         id: 0,
     },
-    {
+    /*{
         title: 'Devvie',
         description: 'A collection of the latest graduate level developer jobs in Ireland.',
         tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'RapidAPI'],
@@ -16,7 +16,7 @@ export const projects = [
         link: 'https://devvie.io/',
         displayLink: 'devvie.io',
         id: 1,
-    },
+    },*/
     {
         title: 'Meditations',
         description: 'Building an online version of Meditations using the Astro Framework.',
