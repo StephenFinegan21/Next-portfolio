@@ -17,11 +17,11 @@ export default function ProjectCard(props: Project) {
   return (
     <>
       <div className="flex flex-col justify-center mt-6">
-        <h3 className="text-lg font-semibold tracking-tight text-zinc-100">
+        <h3 className="text-lg md:text-2xl font-semibold  text-zinc-100">
           {title}
         </h3>
-        <p className=" text-base text-zinc-400">{description}</p>
-        <div className="flex align-middle text-emerald-400 text-base py-4 gap-4">
+        <p className=" text-sm md:text-lg text-zinc-400">{description}</p>
+        <div className="flex align-middle text-sm md:text-lg text-cyan-400 py-4 gap-4">
           <a href={link}>{displayLink}</a>
           <FaLink />
         </div>

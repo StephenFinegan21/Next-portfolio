@@ -12,12 +12,12 @@ export default function HistoryCard(props: PositionProps) {
 
   return (
     <>
-      <div className="flex flex-col justify-center mt-6">
-        <h3 className="text-lg font-semibold tracking-tight text-zinc-100">
+      <div className="flex flex-col justify-center mt-6 md:text-center">
+        <h3 className=" text-lg md:text-2xl font-semibold  text-zinc-100">
           {title}
         </h3>
-        <p className=" text-base text-zinc-400">{description}</p>
-        <p className=" text-base text-zinc-400">{years}</p>
+        <p className="text-sm md:text-lg text-zinc-400">{description}</p>
+        <p className="text-sm md:text-lg text-zinc-400">{years}</p>
       </div>
     </>
   );

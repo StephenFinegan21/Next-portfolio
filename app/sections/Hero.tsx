@@ -10,12 +10,12 @@ export default function Hero() {
 
     return (
         <motion.div
-         className="w-full my-12 flex flex-col justify-center md:w-3/5 md:justify-start">
-        <h1 className="text-2xl font-bold tracking-tight text-white sm:text-5xl">Frontend Developer</h1>
-        <h1 className="text-2xl font-bold tracking-tight text-white sm:text-5xl">@ Distilled</h1>
+         className="w-full md:h-[90vh] flex flex-col  my-24 md:my-0 md:justify-center md:text-center md:w-fit  mx-auto">
+        <h1 className="text-3xl font-bold tracking-tight text-white md:text-8xl">Frontend Developer</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-white md:text-8xl text-left md:relative md:right-2">@<span className="text-cyan-400">Distilled</span></h1>
 
-        <p className="mt-6 text-base text-zinc-400">
-            I’m a frontend developer based in Dublin. Currently working on the Daft.ie platform at Distilled.
+        <p className="mt-2 text-sm md:text-xl  text-zinc-300 text-left font-inter">
+            Frontend developer based in Dublin. Currently working on the Daft.ie platform with Distilled.
             </p>
             <Socials />
         </motion.div>
