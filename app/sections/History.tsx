@@ -5,7 +5,7 @@ export default function History() {
     
     return(
         <>
-        <div className=" md:h-[60vh] md:flex flex-col items-center justify-start my-24  ">
+        <div className=" md:h-[60vh] md:flex flex-col  justify-start my-24  ">
             {history.map((position) => (
                 <HistoryCard key={position.id} position={position} />
             ))}
