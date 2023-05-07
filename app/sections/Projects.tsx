@@ -5,8 +5,8 @@ export default function Projects() {
  
     return (
         <>
-        <div className="md:h-[60vh]  md:flex flex-col  justify-center my-24 md:my-0 ">
-            <h1 className="text-3xl font-bold py-4 tracking-tight text-white sm:text-5xl ">Projects</h1>
+        <div className="flex flex-col  justify-center my-24  ">
+            <h1 className="text-lg font-medium py-4 tracking-tight text-white  ">Projects</h1>
             <div>
                 {projects.map(project =>
                     <ProjectCard key={project.id} project={project} />

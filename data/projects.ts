@@ -8,15 +8,15 @@ export const projects = [
         displayLink: 'statsoftheday.com',
         id: 0,
     },
-    /*{
-        title: 'Devvie',
-        description: 'A collection of the latest graduate level developer jobs in Ireland.',
-        tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'RapidAPI'],
+    {
+        title: 'Invite.ai',
+        description: 'ChatGPT powered event invitation generator.',
+        tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Chat GPT'],
         github: '',
-        link: 'https://devvie.io/',
-        displayLink: 'devvie.io',
-        id: 1,
-    },*/
+        link: '/',
+        displayLink: '/',
+        id: 2,
+    },
     {
         title: 'Meditations',
         description: 'Building an online version of Meditations using the Astro Framework.',

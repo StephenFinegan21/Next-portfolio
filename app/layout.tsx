@@ -27,7 +27,7 @@ export default function RootLayout({
 // If loading a variable font, you don't need to specify the font weight
 
   return (
-    <html lang="en" className={`${inter.variable} ${archivo.variable}`}>
+    <html lang="en" className={`${inter.variable}`}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -38,9 +38,10 @@ export default function RootLayout({
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y : 0 }}
       transition={{ delay: 0.2 }}
-      className={`bg-zinc-900 p-4  w-4/5 lg:w-3/5 mx-auto font-archivo`}>
-      
+      className={`bg-zinc-900 p-4  w-4/5 lg:w-3/5 mx-auto font-inter min-h-screen`}>
+      <main className='h-screen flex flex-col justify-center'>
       {children}
+      </main>
       <Footer />
       </motion.body>
     </html>
