@@ -18,9 +18,9 @@ export default function ProjectCard(props: Project) {
     <>
       <div className="flex flex-col justify-center mt-6 text-zinc-100">
        
-          <Link href={link} className="flex gap-4 hover:underline align-middle">
+          <Link href={link} className="flex gap-4 hover:underline items-center ">
             <h3 className="text-lg  font-regular ">{title}</h3>
-            <FaLink />
+            <FaLink className="hover:scale-110 transition-all"/>
           </Link>
         
         <p className=" text-sm  text-zinc-400">{description}</p>

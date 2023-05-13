@@ -13,8 +13,8 @@ export const projects = [
         description: 'ChatGPT powered event invitation generator.',
         tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Chat GPT'],
         github: '',
-        link: '/',
-        displayLink: '/',
+        link: 'https://invitation-ai.vercel.app/',
+        displayLink: 'Invite-AI',
         id: 2,
     },
     {
