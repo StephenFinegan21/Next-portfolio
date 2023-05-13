@@ -16,7 +16,7 @@ export default function ProjectCard(props: Project) {
 
   return (
     <>
-      <div className="flex flex-col justify-center mt-6 text-zinc-100">
+      <div className="flex flex-col justify-center mt-6 dark:text-zinc-100 text-zinc-800">
        
           <Link href={link} className="flex gap-4 hover:underline items-center ">
             <h3 className="text-lg  font-regular ">{title}</h3>
