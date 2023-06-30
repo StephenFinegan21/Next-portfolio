@@ -4,11 +4,8 @@ import { skills } from "../../data/skills";
 import { motion } from "framer-motion";
 
 export default function Skills() {
-
-
   return (
     <>
-    
       <div className="w-full my-4 dark:bg-zinc-800/20 p-8 bg-zinc-50 rounded-lg grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3">
         {skills
           .filter((skill) => skill.category === "language")
@@ -78,9 +75,9 @@ export default function Skills() {
           .map((skill) => (
             <motion.div
               key={skill.name}
-              initial={{ opacity: 0, x: -40 }}
+              initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
+              transition={{ delay: 0.2, duration: 0.2 }}
               viewport={{ once: true }}
               className="w-full py-4 md:pt-12 md:pb-2 flex flex-col gap-4"
             >
