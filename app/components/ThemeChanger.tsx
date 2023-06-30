@@ -19,7 +19,7 @@ const ThemeChanger = () => {
   }
 
   return (
-    <>
+    <div className="w-full  sm:w-auto">
       {resolvedTheme === "dark" && (
         <button onClick={() => setTheme("light")}>
           <BiSun className="hover:scale-110 transition-all" />
@@ -30,7 +30,7 @@ const ThemeChanger = () => {
           <HiOutlineMoon className="hover:scale-110 transition-all" />
         </button>
       )}
-    </>
+    </div>
   );
 };
 
