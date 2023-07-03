@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 export default function Navigation() {
-  const [activeLink, setActiveLink] = useState<number>();
+  const [activeLink, setActiveLink] = useState<number>(0);
 
   const handleSetActiveLink = (index:number) => {
     setActiveLink(index);
