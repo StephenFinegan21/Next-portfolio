@@ -31,20 +31,20 @@ export default function RootLayout({
       <head />
 
       <body>
-        <Providers>
+        
        
        
           <main className="h-full   w-full  font-inter  bg-white dark:bg-zinc-900">
             <div className="w-full md:w-3/5 lg:w-2/5 mx-auto flex flex-col justify-center p-4">
             <div className="text-zinc-900 dark:text-white gap-8 top-8 fixed flex items-center z-20 ">
           <Navigation />
-         <ThemeChanger />
+        
         </div>
               {children}
             </div>
             <Footer />
           </main>
-        </Providers>
+      
       </body>
     </html>
   );
