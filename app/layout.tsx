@@ -7,7 +7,6 @@ import { Inter, Archivo } from "@next/font/google";
 import { Providers } from "./providers/Provider";
 import ThemeChanger from "./components/ThemeChanger";
 
-
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   variable: "--font-inter",
@@ -32,14 +31,12 @@ export default function RootLayout({
 
       <body>
         <Providers>
-       
-       
-          <main className="h-full   w-full  font-inter  bg-white dark:bg-zinc-900">
+          <main className="min-h-screen  w-full  font-inter  bg-white dark:bg-zinc-900">
             <div className="w-full md:w-3/5 lg:w-2/5 mx-auto flex flex-col justify-center p-4">
-            <div className="text-zinc-900 dark:text-white gap-8 top-8 fixed flex items-center z-20 ">
-          <Navigation />
-         <ThemeChanger />
-        </div>
+              <div className="text-zinc-900 dark:text-white gap-8 top-8 fixed flex items-center z-20 ">
+                <Navigation />
+                <ThemeChanger />
+              </div>
               {children}
             </div>
             <Footer />
