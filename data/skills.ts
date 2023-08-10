@@ -43,12 +43,6 @@ export const skills = [
         image: '/styled.png',
         category: 'language'
     },
-   
-    {
-        name: 'Framer Motion',
-        image: '/framer.png',
-        category: 'other'
-    },
     {
         name: 'Cypress',
         image: '/cypress.png',

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Skills() {
   return (
     <>
-      <div className="w-full my-4 gap-8 rounded-lg grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3">
+      <div className="w-full my-4 gap-2 rounded-lg grid grid-cols-2 bg-white/50 dark:bg-zinc-800/30  ">
         {skills.map((skill) => (
           <motion.div
             key={skill.name}
@@ -14,14 +14,16 @@ export default function Skills() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.1, duration: 0.3 }}
             viewport={{ once: true }}
-            className="w-full p-4 md:pt-12 md:pb-2 flex flex-col items-center justify-center text-center gap-4  rounded-lg bg-gradient-to-r dark:from-zinc-800/50 dark:via-zinc-800/30 dark:to-zinc-800/20 from-zinc-100/60 via-zinc-200/30 to-zinc-200/40"
+            className=" p-4 w-full  flex  items-center justify-start text-center gap-2  rounded-lg "
           >
+            <div className="w-4  sm:w-6 flex justify-center items-center">
             <img
-              className="w-8 col-span-1 filter brightness-[100%]"
+              className="w-full filter brightness-[100%]"
               src={skill.image}
               alt={skill.name}
             />
-            <p className="dark:text-white col-span-4 text-sm">{skill.name}</p>
+            </div>
+            <p className="dark:text-white col-span-4 text-sm text-left">{skill.name}</p>
           </motion.div>
         ))}
       </div>

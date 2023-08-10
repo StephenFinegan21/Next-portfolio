@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <motion.div className="w-full  flex flex-col text-zinc-900 dark:text-white">
+    <motion.div className="w-full  flex flex-col text-zinc-900 dark:text-white bg-white/50 dark:bg-zinc-800/30 p-4 rounded-md">
       <h1 className="text-lg font-medium  ">
         Stephen Finegan
       </h1>

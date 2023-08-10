@@ -31,7 +31,7 @@ export default function RootLayout({
 
       <body>
         <Providers>
-          <main className="min-h-screen  w-full  font-inter  bg-white dark:bg-zinc-900">
+          <main className="min-h-screen  w-full  font-inter  bg-zinc-100 dark:bg-zinc-900">
             <div className="w-full md:w-3/5 lg:w-2/5 mx-auto flex flex-col justify-center p-4">
               <div className="text-zinc-900 dark:text-white gap-8 top-8 fixed flex items-center z-20 ">
                 <Navigation />
