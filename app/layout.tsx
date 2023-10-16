@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { motion } from "framer-motion";
-import { Inter, Archivo } from "@next/font/google";
+import { Inter } from 'next/font/google'
 import { Providers } from "./providers/Provider";
 import ThemeChanger from "./components/ThemeChanger";
 

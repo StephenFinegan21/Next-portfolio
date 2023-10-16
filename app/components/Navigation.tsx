@@ -10,7 +10,6 @@ export default function Navigation() {
   const [activeLink, setActiveLink] = useState<number>();
   const navLinks = [
     { name: 'About', href: '/' },
-    { name: 'Notes', href: '/notes' },
     { name: 'Projects', href: '/projects' },
   ];
   const pathname = usePathname()

@@ -1,4 +1,4 @@
-import { Inter } from "@next/font/google";
+import { Inter } from 'next/font/google'
 import Hero from "./sections/Hero";
 import Skills from "./sections/Skills";
 
