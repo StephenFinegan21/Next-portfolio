@@ -40,27 +40,27 @@ export const skills = [
    
     {
         name: 'Styled Components',
-        image: '/styled.png',
+        image: '/images/tech/styled.png',
         category: 'language'
     },
     {
         name: 'Cypress',
-        image: '/cypress.png',
+        image: '/images/tech/cypress.png',
         category: 'test'
     },
     {
         name: 'Jest',
-        image: '/jest.png',
+        image: '/images/tech/jest.png',
         category: 'test'
     },
     {
         name: 'Figma',
-        image: '/figma.png',
+        image: '/images/tech/figma.png',
         category: 'other'
     },
     {
         name: 'Astro',
-        image: '/astro.png',
+        image: '/images/tech/astro.png',
         category: 'framework'
     },
     

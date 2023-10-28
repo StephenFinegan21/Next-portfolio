@@ -26,4 +26,13 @@ export const projects = [
         displayLink: 'Meditations',
         id: 1,
     },
+    {
+        title: 'Carousel',
+        description: 'An Image Carousel built with Tailwind.',
+        tags: ['Tailwind', 'Next JS'],
+        github: '',
+        link: 'projects/carousel',
+        displayLink: 'Carousel',
+        id: 4,
+    },
 ]
