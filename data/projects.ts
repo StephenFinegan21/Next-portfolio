@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'Stats of the day',
-        description: 'Get statistics and predictions for upcoming Premier League matches.',
+        description: 'Stats & Predictions for upcoming football matches.',
         tags: ['Next.js', 'TypeScript', 'Tailwind', 'RapidAPI'],
         github: '',
         link: 'https://statsoftheday.vercel.app/',

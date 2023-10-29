@@ -16,15 +16,17 @@ export default function ProjectCard(props: Project) {
 
   return (
     <>
-      <div className="flex flex-col justify-center mt-6 dark:text-zinc-100 text-zinc-800">
-       
-          <Link href={link} className="flex gap-4 hover:underline items-center ">
-            <h3 className="text-lg  font-regular ">{title}</h3>
-            <FaLink className="hover:scale-110 transition-all"/>
-          </Link>
-        
-        <p className=" text-sm  text-zinc-400">{description}</p>
-      </div>
+      <li className=" p-4 rounded-md transition-all flex flex-col justify-center  dark:text-zinc-100 text-zinc-800 hover:bg-zinc-700">
+        <Link
+          href={link}
+          className="w-full flex flex-col sm:flex-row items-start  sm:items-center justify-between "
+        >
+          <span className="text-sm font-medium ">{title}</span>
+          <p className=" text-xs dark:text-zinc-400 text-zinc-500">
+            {description}
+          </p>
+        </Link>
+      </li>
     </>
   );
 }

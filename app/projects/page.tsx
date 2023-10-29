@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function ProjectsPage() {
   return (
-    <div className='w-full md:w-3/5 lg:w-2/5 mx-auto'>
+    <div className='w-full md:w-4/5 lg:w-3/5 mx-auto'>
     <Projects />
     </div>
   );
