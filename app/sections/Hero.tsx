@@ -8,10 +8,10 @@ export default function Hero() {
       <h1 className="text-lg font-medium  ">
         Stephen Finegan
       </h1>
-      <h2 className="text-lg font-regular ">
+      <h2 className="text-sm font-regular text-zinc-700 dark:text-zinc-100 ">
         Frontend developer based in Dublin
       </h2>
-      <h2 className="text-lg font-regular   ">
+      <h2 className="text-sm font-regular text-zinc-700 dark:text-zinc-100  ">
         Working @ Distilled on Daft.ie
       </h2>
 
