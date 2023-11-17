@@ -11,7 +11,7 @@ export type Property = {
 export default function CarouselPage() {
   return (
     <>
-      <div className="flex flex-col py-8  min-h-screen items-center md:justify-center ">
+      <div className="flex flex-col py-8  min-h-screen items-center md:justify-center w-full ">
         <Carousel properties={properties} />
       </div>
     </>
