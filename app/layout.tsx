@@ -29,7 +29,7 @@ export default function RootLayout({
 
       <body>
         <Providers>
-          <main className="min-h-screen  w-full  font-inter  bg-zinc-100 dark:bg-zinc-900 antialiased transition-colors">
+          <main className="min-h-screen  w-full  font-inter  bg-zinc-100 dark:bg-zinc-900 antialiased transition-all">
             <div className=" flex flex-col justify-center p-4 items-center">
               <Navigation />
               {children}
