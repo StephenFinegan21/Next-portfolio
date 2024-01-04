@@ -11,7 +11,7 @@ export default function Contact() {
   };
 
   useEffect(() => {
-    let timeoutId;
+    let timeoutId : any;
 
     if (showToast) {
       timeoutId = setTimeout(() => {
