@@ -7,6 +7,8 @@ export const projects = [
         link: 'https://statsoftheday.vercel.app/',
         displayLink: 'statsoftheday.com',
         id: 0,
+        projectImage:'/images/projects/sotd.png'
+
     },
     {
         title: 'ScreenSweet',
@@ -16,6 +18,7 @@ export const projects = [
         link: 'https://www.screensweet.com/',
         displayLink: 'Screen Sweet',
         id: 2,
+        projectImage:'/images/projects/screensweet.png'
     },
     {
         title: 'Yum',
@@ -25,5 +28,7 @@ export const projects = [
         link: 'https://yum-liard.vercel.app/',
         displayLink: 'Yum',
         id: 4,
+        projectImage:'/images/projects/yum.png'
+
     },
 ]
