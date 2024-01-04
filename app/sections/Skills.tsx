@@ -27,12 +27,12 @@ export default function Skills() {
         />
       </motion.svg>
 
-      <div className="w-full max-w-full grid-cols-2 gap-y-8 grid sm:grid-cols-3 items-start    ">
+      <div className="w-full max-w-full  gap-y-12 grid sm:grid-cols-3 items-stretch justify-between    ">
         <div>
           <h2 className="text-sm  text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
             Skills
           </h2>
-          <ul className="text-sm sm:text-base  font-medium leading-8 sm:leading-10 ">
+          <ul className="text-sm sm:text-base font-medium leading-8 sm:leading-10 ">
             <li>React</li>
             <li>Next</li>
             <li>Typescript</li>
@@ -42,7 +42,7 @@ export default function Skills() {
           </ul>
         </div>
 
-        <div>
+        <div className="text-right sm:text-left ">
           <h2 className="text-sm text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
             Tools
           </h2>

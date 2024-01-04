@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     
-      <div className="pt-24 w-full md:w-4/5 lg:w-3/5 mx-auto">
+      <div className="w-full md:w-4/5 lg:w-3/5 mx-auto">
         <Hero />
         <Skills />
         <Projects />
