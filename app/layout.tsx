@@ -1,9 +1,11 @@
-"use client";
+;
 import "../styles/globals.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers/Provider";
+import type { Metadata } from 'next'
+
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -12,19 +14,22 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+export const metadata: Metadata = {
+  title: 'Stephen Finegan - Web Dev',
+  description: 'Portfolio site - Stephen Finegan, Dublin',
+}
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  // If loading a variable font, you don't need to specify the font weight
 
+  
   return (
     <html lang="en" className={`${inter.variable}`}>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+     <title>Stephen Finegan - Web Dev</title>
+     <meta></meta>
       <head />
 
       <body>

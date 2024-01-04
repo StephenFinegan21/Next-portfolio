@@ -29,9 +29,9 @@ export default function Skills() {
 
       <div className="w-full max-w-full grid-cols-2 gap-y-8 grid sm:grid-cols-3 items-start    ">
         <div>
-          <h3 className="text-sm  text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
+          <h2 className="text-sm  text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
             Skills
-          </h3>
+          </h2>
           <ul className="text-sm sm:text-base  font-medium leading-8 sm:leading-10 ">
             <li>React</li>
             <li>Next</li>
@@ -43,9 +43,9 @@ export default function Skills() {
         </div>
 
         <div>
-          <h3 className="text-sm text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
+          <h2 className="text-sm text-gray-800 dark:text-gray-300 leading-8 sm:leading-10 ">
             Tools
-          </h3>
+          </h2>
           <ul className="text-sm sm:text-base  font-medium leading-8 sm:leading-10 ">
             <li>Visual Studio Code</li>
             <li>Figma</li>
@@ -54,9 +54,9 @@ export default function Skills() {
         </div>
 
         <div className="col-span-2 row-start-2 sm:col-auto sm:row-auto">
-          <h3 className="text-sm text-gray-800 dark:text-gray-300 leading-8 sm:leading-10">
+          <h2 className="text-sm text-gray-800 dark:text-gray-300 leading-8 sm:leading-10">
             Education
-          </h3>
+          </h2>
           <ul className="text-sm sm:text-base  font-medium leading-8 sm:leading-10">
             <li>National College of Ireland</li>
             <li>Dublin Institute of Design</li>
