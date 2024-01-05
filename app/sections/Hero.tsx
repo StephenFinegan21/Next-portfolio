@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <motion.div className=" w-full h-[80vh] flex flex-col  items-center justify-center text-zinc-900 dark:text-white rounded-md relative">
+    <motion.div className=" w-full h-[100vh] flex flex-col  items-center justify-center text-zinc-900 dark:text-white rounded-md relative ">
       <span>
         <motion.svg
           xmlns="http://www.w3.org/2000/svg"

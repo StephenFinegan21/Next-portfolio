@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Projects() {
   const [currentProject, setCurrentProject] = useState("/images/projects/sotd.png");
   return (
-    <div className="h-[80vh] ">
+    <div className="h-[100vh] flex flex-col justify-center ">
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -40,9 +40,13 @@ export default function Projects() {
             />
           ))}
         </ul>
-        <div className="hidden md:flex w-72 h-64 bg-zinc-50 rounded-md p-4  justify-center items-center transition-all">
-          <Image src={currentProject} alt="project" objectFit="cover" width={400} height={120}></Image>
-        </div>
+        <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity:  1  }}
+        transition={{ duration: 1, type: 'spring' }}
+        className="hidden md:flex w-72 h-64 bg-zinc-50 rounded-md p-4  justify-center items-center transition-all">
+          <Image src={currentProject} alt="project"  width={400} height={120}></Image>
+        </motion.div>
       </div>
     </div>
   );

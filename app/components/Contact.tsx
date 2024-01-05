@@ -26,7 +26,6 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center justify-center">
       <button onClick={handleClick}>stephenfwebdesign@gmail.com</button>
-
       <motion.p
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: showToast ? 1 : 0, y: showToast ? 0 : 10 }}

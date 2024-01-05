@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col h-screen gap-8 relative w-full justify-center items-center">
+    <div className="flex  flex-col h-screen gap-8 relative w-full justify-center items-center">
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
