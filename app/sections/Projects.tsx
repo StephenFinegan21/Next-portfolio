@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Projects() {
   const [currentProject, setCurrentProject] = useState("/images/projects/sotd.png");
   return (
-    <div className="h-[100vh] flex flex-col justify-center ">
+    <div className="h-[90vh] sm:h-screen flex flex-col justify-center ">
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
