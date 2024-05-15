@@ -33,8 +33,8 @@ export default function Skills() {
             Skills
           </h2>
           <ul className="text-sm sm:text-base font-medium leading-8 sm:leading-10 ">
-            <li>React</li>
-            <li>Next</li>
+            <li>React JS</li>
+            <li>Next JS</li>
             <li>Typescript</li>
             <li>Javascript</li>
             <li>Tailwind</li>
@@ -49,7 +49,7 @@ export default function Skills() {
           <ul className="text-sm sm:text-base  font-medium leading-8 sm:leading-10 ">
             <li>Visual Studio Code</li>
             <li>Figma</li>
-            <li>Adobe Illustrator</li>
+            <li>Postman</li>
           </ul>
         </div>
 

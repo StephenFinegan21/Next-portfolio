@@ -11,6 +11,16 @@ export const projects = [
 
     },
     {
+        title: 'Dublin Sips',
+        description: 'Building a bar / cafe / restaurant directory.',
+        tags: ['Next JS', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+        github: '',
+        link: 'https://dublincoffee.vercel.app/',
+        displayLink: 'Dublin Sips',
+        id: 2,
+        projectImage:'/images/projects/dublin-sips.png'
+    },
+    {
         title: 'ScreenSweet',
         description: 'A list of useful UX / Design books.',
         tags: ['Astro', 'TypeScript', 'Tailwind CSS', 'GSAP'],
