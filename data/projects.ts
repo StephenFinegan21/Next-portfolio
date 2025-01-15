@@ -10,17 +10,7 @@ export const projects = [
         projectImage:'/images/projects/sotd.png'
 
     },
-    {
-        title: 'Devvie',
-        description: 'Landing page for a web development agency.',
-        tags: ['Astro', 'TypeScript', 'Tailwind'],
-        github: '',
-        link: 'https://devvie.io/',
-        displayLink: 'Devvie.io',
-        id: 0,
-        projectImage:'/images/projects/devvie.png'
-
-    },
+   
     {
         title: 'Dublin Sips',
         description: 'Building a bar / cafe / restaurant directory.',
