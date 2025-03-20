@@ -12,21 +12,21 @@ export const projects = [
     },
    
     {
-        title: 'Dublin Sips',
-        description: 'Building a bar / cafe / restaurant directory.',
-        tags: ['Next JS', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+        title: 'Plants Of Ireland',
+        description: 'Garden planner / plant finder for Ireland.',
+        tags: ['Next JS', 'TypeScript', 'Tailwind CSS'],
         github: '',
-        link: 'https://dublincoffee.vercel.app/',
-        displayLink: 'Dublin Sips',
+        link: 'https://www.plantsofireland.com/',
+        displayLink: 'Plants of Ireland',
         id: 2,
-        projectImage:'/images/projects/dublin-sips.png'
+        projectImage:'/images/projects/garden-planner.png'
     },
     {
         title: 'ScreenSweet',
         description: 'A list of useful UX / Design books.',
         tags: ['Astro', 'TypeScript', 'Tailwind CSS', 'GSAP'],
         github: '',
-        link: 'https://www.screensweet.com/',
+        link: 'https://bookshare-teal.vercel.app/',
         displayLink: 'Screen Sweet',
         id: 2,
         projectImage:'/images/projects/screensweet.png'
