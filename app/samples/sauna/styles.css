@@ -1,0 +1,21 @@
+/* Switzer Variable Font */
+@font-face {
+  font-family: 'Switzer';
+  src: url('/assets/WEB/fonts/Switzer-Variable.woff2') format('woff2'),
+       url('/assets/WEB/fonts/Switzer-Variable.woff') format('woff'),
+       url('/assets/WEB/fonts/Switzer-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/assets/WEB/fonts/Switzer-VariableItalic.woff2') format('woff2'),
+       url('/assets/WEB/fonts/Switzer-VariableItalic.woff') format('woff'),
+       url('/assets/WEB/fonts/Switzer-VariableItalic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+

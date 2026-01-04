@@ -50,7 +50,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <main className={`min-h-screen  max-w-screen overflow-hidden  w-full  ${dmSans.className}  bg-zinc-200/20 dark:bg-zinc-900 antialiased transition-all`}>
-            <div className=" flex flex-col justify-center px-8 sm:px-12  ">
+            <div className=" flex flex-col justify-center p-0  ">
               <Navigation />
               {children}
             </div>

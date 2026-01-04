@@ -1,8 +1,16 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import ThemeChanger from "./ThemeChanger";
 
 export default function Navigation() {
+  const pathname = usePathname();
+  
+  // Hide navigation (and theme toggle) on /samples pages
+  if (pathname.startsWith("/samples")) {
+    return null;
+  }
+
   const navLinks = [
     { name: "About", href: "/" },
     { name: "Projects", href: "/projects" },
