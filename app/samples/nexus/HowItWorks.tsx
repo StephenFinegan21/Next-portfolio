@@ -169,7 +169,7 @@ export default function HowItWorks() {
 
                 <h3
                   style={{ fontWeight: 800 }}
-                  className="text-2xl sm:text-3xl md:text-4xl text-[#F5F0EB] mb-4 sm:mb-6 tracking-tight uppercase"
+                  className="text-2xl sm:text-3xl md:text-4xl text-[#F5F0EB] mb-4 sm:mb-6 tracking-tight "
                 >
                   {step.title}
                 </h3>

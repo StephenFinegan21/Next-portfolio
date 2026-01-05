@@ -18,15 +18,15 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed z-50  top-4 left-1/2 transform -translate-x-1/2 sm:-translate-x-0 sm:top-1/2 sm:left-4  transition-all px-4 sm:px-2">
-      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
+    <nav className="fixed z-50 top-4 left-1/2 transform -translate-x-1/2 sm:-translate-x-0 sm:top-1/2 sm:left-4 transition-all px-4 sm:px-2">
+      <div className="flex flex-row sm:flex-col gap-4 sm:gap-6 items-center">
         <ThemeChanger />
-        <div className="flex gap-4 sm:flex-col">
+        <div className="flex flex-row sm:flex-col gap-3 sm:gap-4">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-sm sm:text-base text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors"
+              className="text-sm sm:text-base text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors whitespace-nowrap"
             >
               {link.name}
             </a>
