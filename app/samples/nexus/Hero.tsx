@@ -99,14 +99,14 @@ export default function Hero() {
           <a
             href="#features-section"
             className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 500 }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
           >
             Features
           </a>
           <a
             href="#how-it-works"
             className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 500 }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
           >
             How It Works
           </a>
@@ -130,14 +130,14 @@ export default function Hero() {
       {/* Main Content */}
       <div className="relative z-10 pt-12 sm:pt-16 md:pt-24 pb-16 sm:pb-32">
         <div className="max-w-4xl flex flex-col items-start justify-start gap-4 sm:gap-6 md:gap-8">
-          <h1 style={{ fontWeight: 800 }} className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-[#2D2D2D] leading-[1.1] tracking-tight">
+          <h1 style={{ fontWeight: 800 }} className="font-extrabold text-5xl md:text-6xl  xl:text-8xl text-[#2D2D2D] leading-[1.1] tracking-tight">
           All Your Work
             <br />
             in One Place.
           </h1>
           <p style={{ fontWeight: 500 }} className="pl-0 sm:pl-2 text-base md:text-xl lg:text-2xl text-[#2D2D2D] leading-relaxed max-w-3xl">
           Stop jumping between tabs and hunting for files. Nexus brings your chat, tasks, and tools into one simple view. It's the easiest way for teams to stay on the same page.          </p>
-          <div className="flex flex-col sm:flex-row gap-4 md:gap-8 items-start">
+          <div className="flex flex-row gap-4 md:gap-8 items-start">
           <button
               onClick={() => {
                 const featuresSection = document.getElementById("features-section");

@@ -23,14 +23,14 @@ export default function Footer() {
           <a
             href="#"
             className="hover:text-[#FF6B35] transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             Twitter
           </a>
           <a
             href="#"
             className="hover:text-[#FF6B35] transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             LinkedIn
           </a>
@@ -40,28 +40,28 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <span
             className="text-xs"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             © {new Date().getFullYear()} Nexus Corporation.
           </span>
           <a
             href="#"
             className="text-xs underline hover:text-[#FF6B35] transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             Privacy
           </a>
           <a
             href="#"
             className="text-xs underline hover:text-[#FF6B35] transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             Terms
           </a>
           <a
             href="#"
             className="text-xs underline hover:text-[#FF6B35] transition-colors"
-            style={{ fontFamily: "'Switzer', sans-serif" }}
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
           >
             Trademarks
           </a>

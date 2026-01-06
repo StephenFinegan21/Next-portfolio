@@ -41,7 +41,7 @@ export default function Button({
     <button
       onClick={onClick}
       className={`${colorClasses[buttonColor]} ${baseClasses} ${paddingClasses} ${className}`}
-      style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 600 }}
+      style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 600 }}
     >
       Get Started
     </button>

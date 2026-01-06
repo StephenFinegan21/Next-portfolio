@@ -216,7 +216,7 @@ export default function Features() {
       <div className="relative z-10">
         <h3
           style={{ fontWeight: 800 }}
-          className="text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6"
+          className="font-extrabold text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6"
         >
           {features[activeFeature].title}
         </h3>

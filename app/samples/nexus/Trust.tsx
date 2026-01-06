@@ -98,7 +98,7 @@ export default function Trust() {
       <div className="max-w-4xl mx-auto mb-16 sm:mb-20 md:mb-24 text-center">
         <h2
           style={{ fontWeight: 800 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#2D2D2D] tracking-tight leading-[1.1] "
+          className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#2D2D2D] tracking-tight leading-[1.1] "
         >
           Trusted by teams who value their time.
         </h2>
@@ -115,13 +115,13 @@ export default function Trust() {
             >
               <div
                 className="metric-value text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D2D2D] mb-4 sm:mb-6 leading-none"
-                style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 800 }}
+                style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
               >
                 0{metric.suffix}
               </div>
               <p
                 className="text-sm sm:text-base md:text-lg lg:text-xl text-[#2D2D2D]/80 leading-relaxed max-w-xs"
-                style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 500 }}
+                style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
               >
                 {metric.description}
               </p>

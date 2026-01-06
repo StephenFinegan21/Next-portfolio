@@ -22,13 +22,13 @@ export default function FacilitySection({
       <div className="relative z-10">
         <h2
           className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight px-2"
-          style={{ fontFamily: "'Switzer', sans-serif" }}
+          style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
         >
           {title}
         </h2>
         <p
           className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto px-2 leading-relaxed"
-          style={{ fontFamily: "'Switzer', sans-serif" }}
+          style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
         >
           {description}
         </p>

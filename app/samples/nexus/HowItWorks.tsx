@@ -77,7 +77,7 @@ export default function HowItWorks() {
       <div className="max-w-6xl mx-auto mb-20 sm:mb-28 md:mb-36">
         <h2
           style={{ fontWeight: 800 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#F5F0EB] tracking-tight leading-[1.1]"
+          className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#F5F0EB] tracking-tight leading-[1.1]"
         >
           Three Steps to a<br />Calmer Workday.
         </h2>
@@ -162,7 +162,7 @@ export default function HowItWorks() {
                 <div className="mb-4 sm:mb-6">
                   <span
                     className="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-bold text-[#FF6B35] leading-none"
-                    style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 800 }}
+                    style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
                   >
                     {step.number}
                   </span>
@@ -170,7 +170,7 @@ export default function HowItWorks() {
 
                 <h3
                   style={{ fontWeight: 800 }}
-                  className="text-2xl sm:text-3xl md:text-4xl text-[#F5F0EB] mb-4 sm:mb-6 tracking-tight "
+                  className="font-extrabold text-2xl sm:text-3xl md:text-4xl text-[#F5F0EB] mb-4 sm:mb-6 tracking-tight "
                 >
                   {step.title}
                 </h3>

@@ -133,7 +133,7 @@ export default function CTA() {
         <h2
           ref={headingRef}
           style={{ fontWeight: 800 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-gray-50 tracking-tight leading-[1.1]"
+          className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-gray-50 tracking-tight leading-[1.1]"
         >
           Ready to simplify your workday?
         </h2>

@@ -115,7 +115,7 @@ export default function Benefits() {
       <div className="relative z-10 mb-8 sm:mb-12">
         <h2
           style={{ fontWeight: 800 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-50 tracking-tight leading-[1.1]"
+          className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-50 tracking-tight leading-[1.1]"
         >
           Why teams choose Nexus
         </h2>
@@ -131,7 +131,7 @@ export default function Benefits() {
           >
             <h3
               style={{ fontWeight: 800 }}
-              className="text-2xl sm:text-3xl md:text-4xl text-gray-50 tracking-tight"
+              className="font-extrabold text-2xl sm:text-3xl md:text-4xl text-gray-50 tracking-tight"
             >
               {benefit.title}
             </h3>
