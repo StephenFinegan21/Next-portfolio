@@ -11,7 +11,7 @@ export default function CTA() {
   const sectionRef = useRef<HTMLElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const subheadingRef = useRef<HTMLParagraphElement>(null);
-  const buttonRef = useRef<HTMLButtonElement>(null);
+  const buttonRef = useRef<HTMLDivElement>(null);
   const line1Ref = useRef<SVGPathElement>(null);
   const line2Ref = useRef<SVGPathElement>(null);
 
