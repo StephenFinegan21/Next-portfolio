@@ -26,14 +26,21 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           duration: 0.4,
           ease: "power2.out",
         });
+        // Prevent body scroll when menu is open
+        document.body.style.overflow = "hidden";
       } else {
         gsap.to(menuRef.current, {
           x: "100%",
           duration: 0.4,
           ease: "power2.in",
         });
+        // Restore body scroll when menu is closed
+        document.body.style.overflow = "unset";
       }
     }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
   }, [isOpen]);
 
   // Parallax effect for SVG lines
@@ -175,7 +182,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <a
             href="#features-section"
             onClick={onClose}
-            className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors  tracking-tight"
+            className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
             style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
           >
             Features
@@ -183,20 +190,20 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <a
             href="#how-it-works"
             onClick={onClose}
-            className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors  tracking-tight"
+            className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
             style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
           >
             How It Works
           </a>
         </nav>
 
-        {/* Get in Touch */}
+        {/* Get Started */}
         <div className="mt-4 sm:mt-8">
           <a
             href="#"
             onClick={onClose}
-            className="text-4xl sm:text-5xl tracking-tight text-white hover:text-white/70 transition-colors"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 600 }}
+            className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
+            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
           >
             Get Started
           </a>

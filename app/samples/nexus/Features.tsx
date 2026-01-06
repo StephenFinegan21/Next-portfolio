@@ -216,11 +216,11 @@ export default function Features() {
       <div className="relative z-10">
         <h3
           style={{ fontWeight: 800 }}
-          className="font-extrabold text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6"
+          className="font-extrabold text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6 max-w-2xl"
         >
           {features[activeFeature].title}
         </h3>
-        <p className="text-white/90 leading-relaxed max-w-3xl text-base sm:text-lg md:text-xl lg:text-2xl">
+        <p className="text-white/90 leading-relaxed max-w-2xl text-base sm:text-lg md:text-xl lg:text-2xl">
           {features[activeFeature].body}
         </p>
       </div>

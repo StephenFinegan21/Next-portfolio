@@ -51,6 +51,18 @@ export default function Hero() {
     setIsMenuOpen(false);
   };
 
+  // Prevent body scroll when menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isMenuOpen]);
+
   return (
     <div
       ref={containerRef}
@@ -135,23 +147,23 @@ export default function Hero() {
             <br />
             in One Place.
           </h1>
-          <p style={{ fontWeight: 500 }} className="pl-0 sm:pl-2 text-base md:text-xl lg:text-2xl text-[#2D2D2D] leading-relaxed max-w-3xl">
+          <p style={{ fontWeight: 500 }} className="pl-0 sm:pl-2 text-base md:text-xl lg:text-2xl text-[#2D2D2D] leading-relaxed max-w-2xl">
           Stop jumping between tabs and hunting for files. Nexus brings your chat, tasks, and tools into one simple view. It's the easiest way for teams to stay on the same page.          </p>
-          <div className="flex flex-row gap-4 md:gap-8 items-start">
-          <button
+          <div className="flex flex-row gap-4 md:gap-8 items-center">
+            <Button
+              size="small"
+              color="dark"
+              variant="outline"
               onClick={() => {
                 const featuresSection = document.getElementById("features-section");
                 if (featuresSection) {
                   featuresSection.scrollIntoView({ behavior: "smooth" });
                 }
               }}
-              style={{ fontWeight: 600 }}
-              className="border-2 md:border-4  border-[#2D2D2D] text-[#2D2D2D] text-sm sm:text-base md:text-lg lg:text-xl px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-[#2D2D2D] hover:text-white transition-all duration-300"
             >
               Learn More
-            </button>
+            </Button>
             <Button size="small" color="green-inactive" />
-           
           </div>
         </div>
       </div>
