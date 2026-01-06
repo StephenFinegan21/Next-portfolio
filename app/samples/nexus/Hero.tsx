@@ -1,12 +1,14 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import Button from "../sauna/Button";
+import Button from "./Button";
+import MobileMenu from "./MobileMenu";
 
 export default function Hero() {
   const logoRef = useRef<HTMLImageElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const logo = logoRef.current;
@@ -41,6 +43,14 @@ export default function Hero() {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div
       ref={containerRef}
@@ -73,8 +83,6 @@ export default function Hero() {
 
       {/* Header */}
       <header className="absolute top-4 sm:top-8 right-0 w-full px-4 sm:px-12 md:px-24 lg:px-48 z-10 flex items-center justify-between pt-4 sm:pt-6 md:pt-8">
-       
-
         {/* Logo */}
         <div className="relative">
           <img
@@ -86,13 +94,38 @@ export default function Hero() {
           />
         </div>
 
-        {/* Menu icon */}
-        <button className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex flex-col items-end justify-center gap-1 sm:gap-1.5 hover:opacity-70 transition-opacity">
-          <div className="h-0.5 bg-[#2D2D2D] w-4 sm:w-6"></div>
-          <div className="h-0.5 bg-[#2D2D2D] w-6 sm:w-8"></div>
-          <div className="h-0.5 bg-[#2D2D2D] w-8 sm:w-10"></div>
+        {/* Navigation */}
+        <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+          <a
+            href="#features-section"
+            className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
+            style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 500 }}
+          >
+            Features
+          </a>
+          <a
+            href="#how-it-works"
+            className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
+            style={{ fontFamily: "'Switzer', sans-serif", fontWeight: 500 }}
+          >
+            How It Works
+          </a>
+          <Button size="xsmall" color="dark" />
+        </nav>
+
+        {/* Menu icon - Mobile */}
+        <button
+          onClick={toggleMenu}
+          className="md:hidden w-8 h-8 sm:w-10 sm:h-10 flex flex-col items-end justify-center gap-1 sm:gap-1.5 hover:opacity-70 transition-opacity z-50 relative"
+        >
+          <div className={`h-0.5 bg-[#2D2D2D] w-4 sm:w-6 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
+          <div className={`h-0.5 bg-[#2D2D2D] w-6 sm:w-8 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></div>
+          <div className={`h-0.5 bg-[#2D2D2D] w-8 sm:w-10 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
         </button>
       </header>
+
+      {/* Mobile Menu */}
+      <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
 
       {/* Main Content */}
       <div className="relative z-10 pt-12 sm:pt-16 md:pt-24 pb-16 sm:pb-32">
@@ -103,19 +136,23 @@ export default function Hero() {
             in One Place.
           </h1>
           <p style={{ fontWeight: 500 }} className="pl-0 sm:pl-2 text-base md:text-xl lg:text-2xl text-[#2D2D2D] leading-relaxed max-w-3xl">
-          Stop jumping between tabs and hunting for files. Nexus brings your chat, tasks, and tools into one simple view. It’s the easiest way for teams to stay on the same page.          </p>
+          Stop jumping between tabs and hunting for files. Nexus brings your chat, tasks, and tools into one simple view. It's the easiest way for teams to stay on the same page.          </p>
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-8 items-start">
           <button
-            onClick={() => {
-              const featuresSection = document.getElementById("features-section");
-              if (featuresSection) {
-                featuresSection.scrollIntoView({ behavior: "smooth" });
-              }
-            }}
-            style={{ fontWeight: 600 }}
-            className="border-2 md:border-4  border-[#2D2D2D] text-[#2D2D2D] text-sm sm:text-base md:text-lg lg:text-xl px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-[#2D2D2D] hover:text-white transition-all duration-300"
-          >
-            Learn More
-          </button>
+              onClick={() => {
+                const featuresSection = document.getElementById("features-section");
+                if (featuresSection) {
+                  featuresSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+              style={{ fontWeight: 600 }}
+              className="border-2 md:border-4  border-[#2D2D2D] text-[#2D2D2D] text-sm sm:text-base md:text-lg lg:text-xl px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-[#2D2D2D] hover:text-white transition-all duration-300"
+            >
+              Learn More
+            </button>
+            <Button size="small" color="green-inactive" />
+           
+          </div>
         </div>
       </div>
       

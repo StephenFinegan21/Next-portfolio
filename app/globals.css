@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Nexus Theme Colors */
+  --nexus-beige-light: #ede6d7;
+  --nexus-beige-light-alt: #f5f0eb;
+  --nexus-dark: #2d2d2d;
+  --nexus-dark-brown: #2d1810;
+  --nexus-dark-green: #0c3623;
+  --nexus-green-active: #348e64;
+  --nexus-green-inactive: #20583e;
+  --nexus-green-hover: #4fb382;
+  --nexus-orange: #ff6b35;
+  --nexus-orange-hover: #ff7b45;
+}

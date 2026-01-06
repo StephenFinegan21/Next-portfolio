@@ -69,6 +69,7 @@ export default function HowItWorks() {
 
   return (
     <section
+      id="how-it-works"
       ref={sectionRef}
       className="min-h-screen bg-[#2D1810] relative overflow-hidden px-4 sm:px-12 md:px-24 lg:px-32 py-24 sm:py-32 md:py-40"
     >
