@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import Trust from "./Trust";
 import localFont from "next/font/local";
+import type { Metadata } from "next";
 
 const switzer = localFont({
   src: [
@@ -25,6 +26,11 @@ const switzer = localFont({
   fallback: ["system-ui", "sans-serif"],
   preload: true,
 });
+
+export const metadata: Metadata = {
+  title: "Nexus - All Your Work in One Place",
+  description: "Stop jumping between tabs and hunting for files. Nexus brings your chat, tasks, and tools into one simple view.",
+};
 
 export default function NexusPage() {
   return (
