@@ -5,16 +5,7 @@ import HowItWorks from "./HowItWorks";
 import CTA from "./CTA";
 import Footer from "./Footer";
 import Trust from "./Trust";
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import "./styles.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 const switzer = localFont({
   src: [
@@ -36,12 +27,13 @@ const switzer = localFont({
   ],
   variable: "--font-switzer",
   display: "swap",
-  fallback: ["Inter", "sans-serif"],
+  fallback: ["system-ui", "sans-serif"],
+  preload: true,
 });
 
 export default function NexusPage() {
   return (
-    <div className={`${inter.variable} ${switzer.className}` }>
+    <div className={switzer.className}>
       <Hero />
       <Features />
      
