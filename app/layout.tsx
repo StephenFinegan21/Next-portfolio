@@ -2,7 +2,7 @@
 import "../styles/globals.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import { Inter, Space_Grotesk, Space_Mono, DM_Sans } from "next/font/google";
+import {  DM_Sans } from "next/font/google";
 import { Providers } from "./providers/Provider";
 import type { Metadata } from 'next'
 

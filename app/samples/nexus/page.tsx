@@ -15,11 +15,6 @@ const switzer = localFont({
       style: "normal",
     },
     {
-      path: "../../../public/assets/WEB/fonts/Switzer-VariableItalic.woff2",
-      weight: "100 900",
-      style: "italic",
-    },
-    {
       path: "../../../public/assets/WEB/fonts/Switzer-Extrabold.woff2",
       weight: "800",
       style: "normal",
