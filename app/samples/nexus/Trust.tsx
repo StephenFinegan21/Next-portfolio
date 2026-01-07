@@ -92,7 +92,7 @@ export default function Trust() {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen bg-[#ede6d7] relative overflow-hidden px-4 sm:px-12 md:px-24 lg:px-48 py-24 sm:py-32 md:py-40 flex flex-col items-center justify-center"
+      className="min-h-screen bg-[#ede6d7] relative overflow-hidden px-8 sm:px-12 md:px-24 lg:px-48 py-24 sm:py-32 md:py-40 flex flex-col items-center justify-center"
     >
       {/* Heading */}
       <div className="max-w-4xl mx-auto mb-16 sm:mb-20 md:mb-24 text-center">
@@ -115,13 +115,13 @@ export default function Trust() {
             >
               <div
                 className="metric-value text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D2D2D] mb-4 sm:mb-6 leading-none"
-                style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
+                style={{ fontWeight: 800 }}
               >
                 0{metric.suffix}
               </div>
               <p
                 className="text-sm sm:text-base md:text-lg lg:text-xl text-[#2D2D2D]/80 leading-relaxed max-w-xs"
-                style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
+                style={{ fontWeight: 500 }}
               >
                 {metric.description}
               </p>

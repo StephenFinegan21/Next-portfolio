@@ -183,7 +183,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             href="#features-section"
             onClick={onClose}
             className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
+            style={{ fontWeight: 800 }}
           >
             Features
           </a>
@@ -191,7 +191,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             href="#how-it-works"
             onClick={onClose}
             className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
+            style={{ fontWeight: 800 }}
           >
             How It Works
           </a>
@@ -203,7 +203,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             href="#"
             onClick={onClose}
             className="text-4xl sm:text-5xl text-white hover:text-white/70 transition-colors tracking-tight"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
+            style={{ fontWeight: 800 }}
           >
             Get Started
           </a>
@@ -215,7 +215,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             href="#"
             onClick={onClose}
             className="text-sm sm:text-base text-white/80 hover:text-white transition-colors underline uppercase"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
+            style={{ fontWeight: 500 }}
           >
             Cookie Policy
           </a>
@@ -223,7 +223,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             href="#"
             onClick={onClose}
             className="text-sm sm:text-base text-white/80 hover:text-white transition-colors underline uppercase"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
+            style={{ fontWeight: 500 }}
           >
             Privacy Policy
           </a>

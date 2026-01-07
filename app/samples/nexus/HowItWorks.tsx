@@ -71,7 +71,7 @@ export default function HowItWorks() {
     <section
       id="how-it-works"
       ref={sectionRef}
-      className="min-h-screen bg-[#2D1810] relative overflow-hidden px-4 sm:px-12 md:px-24 lg:px-32 py-24 sm:py-32 md:py-40"
+      className="min-h-screen bg-[#2D1810] relative overflow-hidden px-8 sm:px-12 md:px-24 lg:px-32 py-24 sm:py-32 md:py-40"
     >
       {/* Heading */}
       <div className="max-w-6xl mx-auto mb-20 sm:mb-28 md:mb-36">
@@ -135,7 +135,7 @@ export default function HowItWorks() {
   </div>
 
         {/* Steps */}
-        <div className="flex flex-col gap-40 sm:gap-52 md:gap-64 relative z-10">
+        <div className="flex flex-col gap-12 sm:gap-52 md:gap-64 relative z-10">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -145,24 +145,13 @@ export default function HowItWorks() {
                   : ""
               }`}
             >
-              {/* Step Image */}
-              {step.image && (
-                <div className="flex-shrink-0 w-full md:w-1/2">
-                  <img
-                    src={step.image}
-                    alt={step.title}
-                    className="w-full rounded-lg shadow-lg"
-                  />
-                </div>
-              )}
-
               {/* Step Content */}
-              <div className="flex-1 flex flex-col justify-center">
+              <div className="flex-1 flex flex-col justify-center order-1 md:order-none">
                 {/* Step Number */}
                 <div className="mb-4 sm:mb-6">
                   <span
                     className="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-bold text-[#FF6B35] leading-none"
-                    style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 800 }}
+                    style={{ fontWeight: 800 }}
                   >
                     {step.number}
                   </span>
@@ -181,6 +170,17 @@ export default function HowItWorks() {
                   {step.description}
                 </p>
               </div>
+
+              {/* Step Image */}
+              {step.image && (
+                <div className="flex-shrink-0 w-full md:w-1/2 order-2 md:order-none">
+                  <img
+                    src={step.image}
+                    alt={step.title}
+                    className="w-full rounded-lg shadow-lg"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>

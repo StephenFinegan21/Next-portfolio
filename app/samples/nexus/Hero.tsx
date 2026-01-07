@@ -66,7 +66,7 @@ export default function Hero() {
   return (
     <div
       ref={containerRef}
-      className="min-h-screen bg-[#ede6d7] relative overflow-hidden px-4 sm:px-12 md:px-24 lg:px-48 flex flex-col justify-center items-start"
+      className="min-h-screen bg-[#ede6d7] relative overflow-hidden px-8 sm:px-12 md:px-24 lg:px-48 flex flex-col justify-center items-start"
     >
       {/* Subtle curved background lines */}
       <div className="absolute inset-0 pointer-events-none">
@@ -94,7 +94,7 @@ export default function Hero() {
       </div>
 
       {/* Header */}
-      <header className="absolute top-4 sm:top-8 right-0 w-full px-4 sm:px-12 md:px-24 lg:px-48 z-10 flex items-center justify-between pt-4 sm:pt-6 md:pt-8">
+      <header className="absolute top-4  right-0 w-full px-4 sm:px-12 md:px-24 lg:px-48 z-10 flex items-center justify-between pt-4 sm:pt-6 ">
         {/* Logo */}
         <div className="relative">
           <img
@@ -111,14 +111,14 @@ export default function Hero() {
           <a
             href="#features-section"
             className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
+            style={{ fontWeight: 500 }}
           >
             Features
           </a>
           <a
             href="#how-it-works"
             className="text-sm lg:text-base text-[#2D2D2D] hover:text-[#2D2D2D]/70 transition-colors"
-            style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 500 }}
+            style={{ fontWeight: 500 }}
           >
             How It Works
           </a>

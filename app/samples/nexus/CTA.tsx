@@ -98,7 +98,7 @@ export default function CTA() {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen bg-[#0c3623] relative overflow-hidden z-10 px-4 sm:px-12 md:px-48 py-24 sm:py-32 md:py-40 flex flex-col items-center justify-center gap-8 sm:gap-12"
+      className="min-h-screen bg-[#0c3623] relative overflow-hidden z-10 px-8 sm:px-12 md:px-48 py-24 sm:py-32 md:py-40 flex flex-col items-center justify-center gap-8 sm:gap-12"
     >
       {/* SVG Line Patterns with Parallax */}
       <div className="absolute inset-0 pointer-events-none opacity-20 z-0">

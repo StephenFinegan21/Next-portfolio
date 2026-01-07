@@ -71,7 +71,7 @@ export default function Features() {
 
   const features = [
     {
-      title: "Stay in the loop",
+      title: "Always stay in the loop",
       body: "Get a clear bird's-eye view of what's happening today without the endless meetings.",
       icon: (
         <svg
@@ -130,7 +130,7 @@ export default function Features() {
     <section
       id="features-section"
       ref={sectionRef}
-      className="min-h-screen bg-[#0c3623] relative overflow-hidden z-10 px-4 sm:px-12 md:px-48 flex flex-col items-start justify-center gap-16"
+      className="min-h-screen bg-[#0c3623] relative overflow-hidden z-10 px-8 sm:px-12 md:px-48 flex flex-col items-start justify-center gap-16"
     >
       {/* SVG Line Patterns with Parallax */}
       <div className="absolute inset-0 pointer-events-none opacity-30 z-0">
@@ -181,7 +181,7 @@ export default function Features() {
       </div>
 
       {/* Feature Tabs */}
-      <div className="relative z-10 w-full flex flex-row items-start justify-between sm:justify-start gap-4 sm:gap-16">
+      <div className="relative z-10 w-full flex flex-row items-start  justify-start gap-8 sm:gap-16">
         {features.map((feature, index) => (
           <button
             key={index}
@@ -216,7 +216,7 @@ export default function Features() {
       <div className="relative z-10">
         <h3
           style={{ fontWeight: 800 }}
-          className="font-extrabold text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6 max-w-2xl"
+          className="font-extrabold text-gray-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-4 sm:mb-6 max-w-xl"
         >
           {features[activeFeature].title}
         </h3>

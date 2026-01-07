@@ -19,9 +19,9 @@ export default function Button({
 }: ButtonProps) {
   const paddingClasses = 
     size === "xsmall" 
-      ? "px-4 py-2  text-xs sm:text-sm" 
+      ? "px-4 py-3  text-xs sm:text-sm" 
       : size === "small" 
-      ? "px-4 py-2 sm:px-8 sm:py-4 text-sm sm:text-base md:text-lg lg:text-xl" 
+      ? "px-4 py-3 sm:px-8 sm:py-4 text-sm sm:text-base md:text-lg lg:text-xl" 
       : "px-8 py-4 sm:px-12 sm:py-5 text-base sm:text-lg md:text-xl";
   
   // Default color based on size if not specified
@@ -56,7 +56,7 @@ export default function Button({
     <button
       onClick={onClick}
       className={`${colorClasses} ${baseClasses} ${paddingClasses} ${className}`}
-      style={{ fontFamily: "'Switzer', 'Inter', sans-serif", fontWeight: 600, boxSizing: "border-box" }}
+      style={{ fontWeight: 600, boxSizing: "border-box" }}
     >
       {children || "Get Started"}
     </button>
