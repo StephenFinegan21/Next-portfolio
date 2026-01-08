@@ -208,7 +208,6 @@ export default function About() {
      
         <h2
           className="text-2xl max-w-2xl mx-auto sm:text-xl md:text-2xl lg:text-3xl leading-[1.1] tracking-tight text-amber-900"
-          style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
         >
           We are a team of sauna specialists, wellness practitioners, and 
           craftspeople dedicated to creating thermal experiences that{" "}

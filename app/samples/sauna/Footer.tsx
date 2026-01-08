@@ -22,7 +22,6 @@ export default function Footer() {
           <div className="space-y-4">
             <h3
               className="text-lg font-semibold mb-6 text-amber-950"
-              style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
             >
               Get in Touch
             </h3>
@@ -80,7 +79,6 @@ export default function Footer() {
           <div className="space-y-4">
             <h3
               className="text-lg font-semibold mb-6 text-amber-950"
-              style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
             >
               Information
             </h3>
@@ -112,7 +110,6 @@ export default function Footer() {
           <div className="space-y-4">
             <h3
               className="text-lg font-semibold mb-6 text-amber-950"
-              style={{ fontFamily: "'Switzer', 'Inter', sans-serif" }}
             >
               Stay Updated
             </h3>
